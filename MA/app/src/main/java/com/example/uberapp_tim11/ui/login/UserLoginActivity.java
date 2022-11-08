@@ -23,11 +23,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.uberapp_tim11.R;
-import com.example.uberapp_tim11.ui.login.LoginViewModel;
-import com.example.uberapp_tim11.ui.login.LoginViewModelFactory;
 import com.example.uberapp_tim11.databinding.ActivityUserLoginBinding;
 
-public class LoginActivity extends AppCompatActivity {
+public class UserLoginActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
     private ActivityUserLoginBinding binding;
